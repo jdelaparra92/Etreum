@@ -1,0 +1,11 @@
+.historiaFondo{
+    background-image: url("../img/fondo7.png");
+    @include padding;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.microfono{
+    margin-top: 50px;
+}

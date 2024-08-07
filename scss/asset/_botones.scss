@@ -1,0 +1,33 @@
+.botonUno{
+    background-color: #DBDC26;
+    color: black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    letter-spacing:4px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+.botonUno:focus{
+    background-color: #626215;
+
+
+}
+
+.botonRed{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 11px;
+   width: 100%;
+    color:#D9D9D9;
+    background-color: #d9d9d93c;
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    padding: 10px 20px;
+    letter-spacing:4px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.fondoBien{
+    background-image: url("../img/fondo3.png");
+    @include padding;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

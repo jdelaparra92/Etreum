@@ -1,0 +1,34 @@
+.experienciaFondo{
+    background-image: url("../img/fondo5.png");
+    @include padding;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carExp{
+height: auto;
+width: 150px;
+}
+
+.carousel-control-next {
+    right: -30px;
+}
+.carousel-control-prev {
+    left: -30px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -32px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}

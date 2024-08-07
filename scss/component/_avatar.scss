@@ -1,0 +1,14 @@
+.imagenAvatar{
+    display: none;
+}
+input:checked ~ label img{
+    filter: drop-shadow(5px 5px 18px #ffffff);
+  }
+
+  .flexAvatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+  }

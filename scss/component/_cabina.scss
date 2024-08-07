@@ -1,0 +1,10 @@
+.cabinaFondo{
+    background-image: url("../img/fondo6.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding{
+    @include padding;
+}

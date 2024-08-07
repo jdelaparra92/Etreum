@@ -1,0 +1,17 @@
+.programasFondo{
+    background-image: url("../img/fondo9.png");
+    @include padding;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.programasUnoFondo{
+    background-image: url("../img/fondo10.png");
+    @include padding;
+    background-position: center center;
+    background-size: cover;
+}
+
+.programasDiv{
+margin-top: 300px;
+}

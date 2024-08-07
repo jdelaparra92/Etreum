@@ -1,0 +1,7 @@
+.comunidadFondo{
+    background-image: url("../img/fondo11.png");
+    @include padding;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+  }
+
+  @mixin padding {
+    padding: 0 30px;
+ 
+  }
+
+  .flex{
+    @include flex;
+  }
+
+  .auto{
+    width: auto !important;
+  }

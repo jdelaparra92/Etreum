@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style>
+    #form {
+      width: 250px;
+      margin: 0 auto;
+      height: 50px;
+    }
+    
+    #form p {
+      text-align: center;
+    }
+    
+    #form label {
+      font-size: 20px;
+    }
+    
+    input[type="radio"] {
+      display: none;
+    }
+    
+    label {
+        color:white;
+    }
+    
+    .clasificacion {
+
+    }
+    
+    label:hover,
+    label:hover ~ label {
+      color: #202020;
+    }
+    
+    input[type="radio"]:checked ~ label {
+      color: #202020;
+    }
+    .book{
+        width: 20px;
+    }
+    form{
+        display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 4px;
+    }
+      </style>
+<body class="flex fondopresent body">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" onclick="closeNav()"><img src="../img/home/Group47.png" alt=""></a> <br><br><br>
+        
+        <a href="perfil.html"><img src="../img/home/Group42.png" alt=""></a><br>
+        <a href="experiencia.html"><img src="../img/home/Group43.png" alt=""></a><br>
+        <a href="festival.html"><img src="../img/home/Group44.png" alt=""></a><br>
+        <a href="puntos.html"><img src="../img/home/Group45.png" alt=""></a><br>
+        <a href="javascript:void(0)" onclick="closeNav()"><img src="../img/home/Group46.png" alt=""></a>
+      </div>
+    <header class="headerHome">
+            <a href="comunidad.html"><img src="../img/home/volver1.png" alt=""></a>
+
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="../img/home/menu1.png" alt=""> </span>
+    </header>
+
+    <div>
+        <img src="../img/comunidad/Group91.png" alt="">
+        <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+            <img class="book" src="../img/relato/bookmark_filled.png" alt="">
+          </form>
+
+    </div><br><br><br>
+
+    <div>
+        <img src="../img/comunidad/Group92.png" alt="">
+        <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+            <img class="book" src="../img/relato/bookmark_filled.png" alt="">
+          </form>
+
+    </div><br><br><br>
+
+    <div>
+        <img src="../img/comunidad/Group93.png" alt="">
+        <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+            <img class="book" src="../img/relato/bookmark_filled.png" alt="">
+          </form>
+
+    </div>
+
+
+
+    <footer class="footerHome">
+        <a href="home.html"><div class="linksFoot">
+            <img src="../img/home/homeF.png" alt="">
+            <p class="footerLinks">HOME</p>
+        </div></a>
+
+        <a href="guardados.html"><div class="linksFoot">
+            <img src="../img/home/guardadosF.png" alt="">
+            <p class="footerLinks">GUARDADOS</p>
+        </div></a>
+
+        <a href="puntos.html"><div class="linksFoot">
+            <img src="../img/home/puntosF.png" alt="">
+            <p class="footerLinks">PUNTOS</p>
+        </div></a>
+
+        <a href="perfil.html"><div class="linksFoot">
+            <img src="../img/home/usuarioF.png" alt="">
+            <p class="footerLinks">PERFIL</p>
+        </div></a>
+
+    </footer>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>
