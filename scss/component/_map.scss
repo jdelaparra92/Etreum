@@ -3,41 +3,11 @@
 
 }
 .mapH{
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    overflow:scroll;
 }
 
-.mapAb1{
-    position: absolute;
-    top:20px;
-    left: 100px;
-    bottom: 30px;
-}
+.mapImg{
+ 
 
-.mapAb2{
-    position: absolute;
-    top:80px;
-    left: 200px;
-    bottom: 30px;
-}
-
-.mapAb3{
-    position: absolute;
-    top:50px;
-    left: 20px;
-    bottom: 30px;
-}
-
-.mapAb4{
-    position: absolute;
-    top:220px;
-    left: 120px;
-    bottom: 30px;
-}
-
-.mapAb5{
-    position: absolute;
-    top:320px;
-    left: 220px;
-    bottom: 30px;
 }
