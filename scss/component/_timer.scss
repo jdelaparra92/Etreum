@@ -4,3 +4,29 @@
     font-weight: 800;
     font-size: 70px;
 }
+
+.modal.show .modal-dialog {
+    transform: none;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: none;
+    width: 100vw;
+}
+.imgTimer{
+    width: 100%;
+}
+
+
+.modal-content {
+
+    border-radius: 27px !important;
+
+}
+
+.botonTimer{
+    background-color: unset !important;
+    border: none !important;
+
+}
